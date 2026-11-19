@@ -17,3 +17,4 @@ def test_is_pass(score: int, expected: bool) -> None:
 
 def test_result_pass() -> None:
     assert result(90) == "Pass"
+    
