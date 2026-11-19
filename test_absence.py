@@ -24,3 +24,4 @@ def test_can_sit_exam(absences: int, expected: bool) -> None:
 )
 def test_status(absences: int, expected: str) -> None:
     assert status(absences) == expected
+    
